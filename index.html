@@ -1,0 +1,53 @@
+<html>
+
+	<head>
+		<title>Cricket Addict</title>
+
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width; user-scalable=no; initial-scale=1; maximum-scale=1" />
+
+		<!-- Styles -->
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,300' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/style.css">
+
+		<!-- Scripts -->
+		<script src="js/lib/modernizr-svg.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/lib/angular.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/lib/angular-animate.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/lib/angular-route.js" type="text/javascript" charset="utf-8"></script>
+
+		<script src="js/MatchesSummary.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/matches-services.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/matches-controllers.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/news-controllers.js" type="text/javascript" charset="utf-8"></script>
+		<!--<script src="js/teams-module.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/players-module.js" type="text/javascript" charset="utf-8"></script> -->
+		<script src="js/app.js" type="text/javascript" charset="utf-8"></script> 
+	</head>
+
+	<body ng-app="cricketaddict">
+		<script type="text/ng-template" id="template/error.html">
+			<span class="error-message">
+				Sorry! This information is not available at the moment. Please try again later.
+			</span>
+/**
+		</script>
+
+		<!-- App Header -->
+		<a href="#/">
+			<div class="screen-width app-header">
+				<img class="app-logo" src="img/app-logo.jpg">
+				<img class="app-title" src="img/app-title.jpg">
+			</div>
+		</a>
+
+		<!-- content -->
+		<div class="app-body" ng-view></div>
+
+		<!-- background image -->
+		<div class="screen-width motif">
+			<img class="screen-width" src="img/motif.png">
+		</div>
+	</body>
+
+</html>
